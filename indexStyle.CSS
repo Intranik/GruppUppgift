@@ -1,0 +1,56 @@
+body{
+   background-color: navy;
+}
+
+.wrapper{
+    width: 100%;
+    max-height: 960px;
+    margin: 0 auto;
+}
+
+/*manu styling */
+nav{
+    background-color: black;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding: 5px;
+}
+
+nav a:hover{
+  background-color: #555;
+}
+/*flex style*/
+
+@media screen and (min-width: 768px) {
+    /*nav ul is the flex container */
+    nav ul{
+        display: flex;
+    }
+    nav li{
+        flex: 1 1 0;
+    }
+    
+}
+
+p{
+    font-family: Open Sans;
+    color: whitesmoke;
+}
+h1,h2{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
