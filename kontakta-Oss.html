@@ -24,5 +24,42 @@
     <div class="kontakta-H2">
         <h2>DIN DRÖM BIL</h2>
     </div>
+    <div class="contact-info">
+        <h2>Kontaktinformation</h2>
+        <p><strong>Adress:</strong> Solna Business Park 13 , 123 45 Stockholm</p>
+        <p><strong>Telefon:</strong> 08-123 999 78</p>
+        <p><strong>E-post:</strong> info@dindrombil.se</p>
+
+        
+        <div class="office-image">
+      
+        </div>
+    </div>
+
+ 
+    <div class="contact-form-container">
+        <h2>Kontakta Oss</h2>
+        <form action="submit_form.php" method="POST">
+           
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" placeholder="Din e-postadress" required>
+
+            
+            <label for="subject">Välj ett ämne:</label>
+            <select id="subject" name="subject" required>
+                <option value="" disabled selected>Välj ett ämne</option>
+                <option value="product">Köp av produkt/tjänst</option>
+                <option value="questions">Frågor om företaget</option>
+                <option value="feedback">Synpunkter på webbplats</option>
+            </select>
+
+            
+            <label for="message">Ditt meddelande:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Skriv ditt meddelande här" required></textarea>
+
+            
+            <button type="submit" class="submit-btn">Skicka Meddelande</button>
+        </form>
+    </div>
 </body>
 </html>
