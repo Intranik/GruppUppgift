@@ -33,4 +33,16 @@ nav a{
         flex: 1 1 1;
     }
 }
+.review-container{
+    color: white;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.dindrömbil{
+    background:black;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 
