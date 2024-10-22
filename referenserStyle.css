@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://robbreport.com/wp-content/uploads/2022/11/3-w-Zenvo-thumbnail_Zenvo.jpg?w=800);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.h2_referenser{
+    background: black;
+    color: white;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+}
+nav a{
+    background: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    display: block;
+    height: 100%;
+    padding: 10px;
+
+}
+@media screen and (min-width: 768px) {
+    .nav-container nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav a{
+        flex: 1 1 1;
+    }
+}
+
