@@ -1,17 +1,22 @@
-body{
-    background: rgb(247, 55, 55);
-    /* background:whitesmoke; */
+/* body{
+    background-image: url();
     width: 100%;
-    max-width: 100%;
+    margin: 0;
+} */
+.omOssContainer{
+    background-image: url(https://robbreport.com/wp-content/uploads/2022/11/3-w-Zenvo-thumbnail_Zenvo.jpg?w=800);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    align-items: center;
+    padding: 20px;
     margin: 0;
 }
-/* .wrapper-H{
-    background: lightblue;
-    margin: 0;
-    height: 100vh;
-} */
 .om-Oss-H2 h2{
-    background: orange;
+    background: black;
+    color: white;
     margin: 0;
     height: 100%;
     padding: 10px;
@@ -20,12 +25,12 @@ body{
 }
 
 .nav-container{
-    background: lightblue;
+    background: black;
     padding: 0;
 }
 nav a{
-    color: black;
-    text-decoration: none;
+    color: white;
+    /* text-decoration: none; */
     text-align: center;
     display: block;
     padding: 10px;
@@ -48,33 +53,43 @@ nav a:hover{
 }
 .vd{
     border-style: ridge;
+    color: white;
 }
 .CFO{
-    border-style:ridge
-} 
+    border-style:ridge;
+    color: white;
+}
 .HR-chef{
     border-style: ridge;
+    color: white;
 }
 .marknadsföring_chef{
     border-style: ridge;
+    color: white;
 }
 .försäljning-chef{
     border-style: ridge;
+    color: white;
 }
 .it-chef{
     border-style: ridge;
+    color: white;
 }
 .pojekt-ledare{
     border-style: ridge;
+    color: white;
 }
 .kundtjänst-ansvarig{
     border-style: ridge;
+    color: white;
 }
 .administrativ-assisten{
     border-style: ridge;
+    color: white;
 }
 h4{
-    background-color: red;
+    background-color: black;
+    color: white;
     text-align: center;
     margin: 0;
     height: 100%;

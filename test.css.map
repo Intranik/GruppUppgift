@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "version": 3,
     "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,KAAK;CAC1B",
@@ -7,3 +8,6 @@
     "names": [],
     "file": "test.css"
 }
+=======
+{"version":3,"sources":["test.scss","test.css"],"names":[],"mappings":"AAAA;EACI,uBAAA;ACCJ","file":"test.css"}
+>>>>>>> 93cab2ebe4ddd95b851d751f33d205f71133cb23

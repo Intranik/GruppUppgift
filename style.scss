@@ -1,0 +1,128 @@
+$primary-color: #4CAF50; 
+$secondary-color: #2196F3; 
+$input-bg: #f0f0f0;
+$hover-darken-percentage: 10%;
+$btn-padding: 10px 20px;
+$border-radius: 5px;
+$font-size: 16px;
+$transition-duration: 0.3s;
+$background-image: url('https://digitalsynopsis.com/wp-content/uploads/2014/06/supercar-wallpapers-lamborghini-5.jpg'); // Path to background image
+
+
+body {
+    background: $background-image no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+@mixin hover-effect($color) {
+    &:hover {
+        background-color: darken($color, $hover-darken-percentage);
+        cursor: pointer;
+    }
+}
+
+
+.btn {
+    color: white;
+    border: none;
+    padding: $btn-padding;
+    font-size: $font-size;
+    border-radius: $border-radius;
+    transition: background-color $transition-duration ease;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    &:focus {
+        outline: none;
+    }
+}
+
+
+.login-btn {
+    background-color: $primary-color;
+    @include hover-effect($primary-color);
+}
+
+
+.sign-in-btn {
+    background-color: $secondary-color;
+    @include hover-effect($secondary-color);
+}
+
+
+.button-container {
+    display: flex;
+    justify-content:space-evenly;
+    align-self:center;
+    align-items: center;
+    width: 200px;
+    margin: 30px auto;
+}
+
+
+.form-container {
+    display: none;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 300px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: $border-radius;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: opacity $transition-duration ease, transform $transition-duration ease;
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+
+:target {
+    display: flex;
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.input {
+    padding: 0,7px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: $border-radius;
+    background-color: $input-bg;
+    font-size: $font-size;
+    width: 100%;
+}
+
+
+.submit-btn {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: $border-radius;
+    font-size: $font-size;
+    transition: background-color $transition-duration ease;
+
+    @include hover-effect($primary-color);
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    &:hover {
+        color: #444;
+    }
+}
