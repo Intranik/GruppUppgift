@@ -1,4 +1,4 @@
-body {
+.logIn-container {
     background: url("https://digitalsynopsis.com/wp-content/uploads/2014/06/supercar-wallpapers-lamborghini-5.jpg") no-repeat center center fixed;
     background-size: cover;
     display: flex;
@@ -9,12 +9,13 @@ body {
     font-family: Arial, sans-serif;
   }
 
+
   /* Header */
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
 }
@@ -138,3 +139,26 @@ nav ul li a {
   .close-btn:hover {
     color: #444;
   }/*# sourceMappingURL=style.css.map */
+.nav-container{
+  background: #000;
+  color: white;
+}
+nav a{
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+nav a:hover{
+  background-color: #555;
+}
+@media screen and (min-widht: 768px) {
+  nav .nav-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  nav{
+    flex: 1 1 0;
+  }
+  
+}
