@@ -42,7 +42,7 @@ nav ul li a {
     font-size: 16px;
 }
 /* När man hover blir det guld färg*/
-nav ul li a.active,
+
 nav ul li a:hover {
     color: #FFD700;
 }
