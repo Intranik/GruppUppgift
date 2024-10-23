@@ -110,7 +110,7 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 40px;
 }
-  /* contaoner för bilarnas bilder + flex*/
+  /* container för bilarnas bilder + flex*/
 .car-grid {
     display: flex;
     justify-content: space-around;
