@@ -93,3 +93,17 @@ h3{
     height: 100px;
     border-radius: 8%;
 }
+
+.car a {
+    background-color:#FFD700;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.car a:hover{
+    background-color: #c5a400;
+}
