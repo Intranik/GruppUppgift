@@ -117,3 +117,62 @@ h3{
     background-color: #9e9e9e;
     border-radius: 5px;
 }
+
+
+/* Media Queries för produktsidan */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .logo {
+        font-size: 14px; /* Öka storleken något för mobil */
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 10px; /* avstånd efter logon */
+    }
+    
+    header ul li a {
+        font-size: 18px; /* Minska storleken för mobil */
+    }
+
+    h1 {
+        font-size: 28px; /* Minska storleken för mobil */
+    }
+
+    .prodekt-H2 {
+        height: 60vh; /* Minska höjden för mobil */
+    }
+
+    .prodekt-H2 h2 {
+        font-size: 28px; /* Minska storleken för mobil */
+    }
+
+    .prodekt-H2 p {
+        font-size: 16px; /* Minska storleken för mobil */
+    }
+
+    .container {
+        flex-direction: column; /* Ställ in kolumnlayout */
+    }
+
+    .car-container {
+        flex-direction: column; /* Ställ in kolumnlayout */
+        align-items: center; /* Centrera innehåll */
+    }
+
+ 
+
+    .car img {
+        width: 150px; /* Minska storleken för mobil */
+        height: auto; /* fixar proportioner för bilden */
+    }
+
+    h3 {
+        width: auto; /* bredden automatisk */
+        height: auto; /* höjden automatisk */
+    }
+}
