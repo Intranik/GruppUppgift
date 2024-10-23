@@ -1,19 +1,23 @@
 body {
     background: white;
+    font-family: 'Open Sans', sans-serif;
 }
-
+/**{
+    border: solid 2px red;
+}*/
 header{
-    background-color: black;
+    background-color:  #333;
     justify-content: space-between;
     align-items: center;
     display: flex;
     color: white;
     padding: 10px 20px;
+    border-radius: 8px;
 }
 
 header .logo{
     margin: 0;
-    font-size: 24px;
+    font-size: 10px;
 }
 
 header ul {
@@ -30,5 +34,76 @@ header li {
 header ul li a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 25px;
+}
+nav ul li a:hover {
+    color: #FFD700;
+}
+.produkt-H1{
+    display: flex;
+    align-items:center ;
+    justify-self: center;
+}
+h1{
+    display: flex;
+    justify-self: center;
+    font-size: 35px ;
+    margin: 5px;
+    
+}
+h2{
+    background-image: url('https://wallpapers.com/images/featured/hd-bil-bakgrund-05akadzow8fujuto.webp');
+    background-size: auto;
+    background-position: center;
+    height: 80vh;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 13px;
+    margin: 0px;
+}
+
+.container{
+    display:flex;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    justify-content: center;
+}
+
+h3{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 200px;
+   margin: 50px ;
+}
+.car-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.car{
+ margin: 50px 50px;
+}
+
+.car img{
+    width: 200px;
+    height: 100px;
+    border-radius: 8%;
+}
+
+.car a {
+    background-color:#FFD700;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.car a:hover{
+    background-color: #c5a400;
 }

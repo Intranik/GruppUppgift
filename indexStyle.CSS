@@ -5,6 +5,10 @@ body {
     box-sizing: border-box;
     background-color: #f5f5f5;
 }
+ /* *{
+    border: solid 2px red;
+} */
+
 
 /* Header */
 header {
@@ -106,7 +110,7 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 40px;
 }
-  /* contaoner för bilarnas bilder + flex*/
+  /* container för bilarnas bilder + flex*/
 .car-grid {
     display: flex;
     justify-content: space-around;
@@ -117,7 +121,6 @@ nav ul li a:hover {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 /* bilarnas bild storlekar*/
 .car img {
