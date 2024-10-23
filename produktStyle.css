@@ -2,9 +2,9 @@ body {
     background: white;
     font-family: 'Open Sans', sans-serif;
 }
-*{
+/**{
     border: solid 2px red;
-}
+}*/
 header{
     background-color:  #333;
     justify-content: space-between;
@@ -47,8 +47,9 @@ nav ul li a:hover {
 h1{
     display: flex;
     justify-self: center;
-    font-size: 25px ;
-    padding: 10px;
+    font-size: 35px ;
+    margin: 5px;
+    
 }
 h2{
     background-image: url('https://wallpapers.com/images/featured/hd-bil-bakgrund-05akadzow8fujuto.webp');
@@ -60,20 +61,35 @@ h2{
     align-items: center;
     display: flex;
     border-radius: 13px;
+    margin: 0px;
 }
 
 .container{
     display:flex;
     padding: 50px 20px;
     background-color: #f9f9f9;
+    margin: 20px;
+    justify-content: center;
+}
 
+h3{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 200px;
+   margin: 50px ;
 }
 .car-container{
-
+    display: flex;
+    justify-content: space-between;
 }
 
+.car{
+ margin: 50px 50px;
+}
 
 .car img{
-    width: 150px;
-
+    width: 200px;
+    height: 100px;
+    border-radius: 8%;
 }
