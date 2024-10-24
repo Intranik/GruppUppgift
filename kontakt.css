@@ -1,0 +1,92 @@
+body {
+    background-image: url(https://files.oaiusercontent.com/file-8SczBR1J50H5GjgpgBrIwjI7?se=2024-10-22T01%3A15%3A19Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D5ba9b62d-b87e-40c9-b07b-71cca8cb9e22.webp&sig=XTZdzDPVWrewlzrF7JzPduFxCuldSIa4ipQFZVyJR10%3D);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  
+  
+  }
+  
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #868686;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .contact-info {
+    background-color: rgba(254, 254, 254,0.4);
+    border-radius: 5px;
+    font-size: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 300px;
+  }
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  .contact-info .office-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-container {
+    background-color: rgb(255, 255, 255,0.6);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  .contact-form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .contact-form-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  .contact-form-container input[type=email],
+  .contact-form-container select,
+  .contact-form-container textarea {
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .contact-form-container textarea {
+    resize: vertical;
+  }
+  .contact-form-container .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .contact-form-container .submit-btn:hover {
+    background-color: #45a049;
+  }
