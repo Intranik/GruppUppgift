@@ -1,16 +1,32 @@
 body {
-    background-image: url(https://files.oaiusercontent.com/file-8SczBR1J50H5GjgpgBrIwjI7?se=2024-10-22T01%3A15%3A19Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D5ba9b62d-b87e-40c9-b07b-71cca8cb9e22.webp&sig=XTZdzDPVWrewlzrF7JzPduFxCuldSIa4ipQFZVyJR10%3D);
-    background-size: cover;
+    background-image: url(https://cdn.discordapp.com/attachments/1295675287853334592/1298919644429553684/DALLE_2024-10-24_10.04.40_-_A_modern_car_dealership_building_with_large_glass_windows_showcasing_a_variety_of_cars_inside._In_front_of_the_dealership_is_a_bold_and_clear_sign_th.webp?ex=671b50af&is=6719ff2f&hm=8617a72b785e635c6b79d2ee46bcf1a57fc8fe5913ba81ca9b0bdb1538c6a194&);
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-  
+
   
   }
-  
+
+  .nav-container{
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .nav-container a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 10px;
+  }
+
+  .nav-container a:hover{
+    color: goldenrod;
+  }
   
   body {
     font-family: 'Open Sans', sans-serif;
